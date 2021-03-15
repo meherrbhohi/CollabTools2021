@@ -1,0 +1,25 @@
+import random
+
+def rps():
+
+user = input("Choose rock, paper, or scissors")
+
+comp = random.choice(['rock','paper','scissors'])
+
+if user == comp:
+  print("tie!")
+elif user == "rock":
+  if comp == "scissors":
+    print("Rock beats scissors! You win!")
+  else:
+    print("Paper beats rock! You lose!")
+elif user == "paper":
+  if comp == "rock":
+    print("Paper beats rock! You win!")
+  else:
+    print ("Scissors beats paper! You lose!")
+elif user == "scissors":
+  if comp == "paper":
+    print ("Scissors beat paper! You win!")
+  else:
+    print("Rock beats scissors! You lose!")
