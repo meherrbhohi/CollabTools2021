@@ -10,16 +10,16 @@ if user == comp:
   print("tie!")
 elif user == "rock":
   if comp == "scissors":
-    print("Rock beats scissors! You win!")
+    print("Rock beats scissors! You win! Congrats!")
   else:
-    print("Paper beats rock! You lose!")
+    print("Paper beats rock! You lose! Haha!")
 elif user == "paper":
   if comp == "rock":
-    print("Paper beats rock! You win!")
+    print("Paper beats rock! You win! Congrats!")
   else:
-    print ("Scissors beats paper! You lose!")
+    print ("Scissors beats paper! You lose! Haha!")
 elif user == "scissors":
   if comp == "paper":
-    print ("Scissors beat paper! You win!")
+    print ("Scissors beat paper! You win! Congrats!")
   else:
-    print("Rock beats scissors! You lose!")
+    print("Rock beats scissors! You lose! Haha!")
